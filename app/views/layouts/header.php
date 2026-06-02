@@ -71,7 +71,7 @@ if (!defined('BASE_URL')) {
                         </a>
                     <?php else: ?>
                         <a href="<?= BASE_URL ?>/auth/login"
-                            class="border rounded-2xl bg-[var(--main-bg)] px-4 py-2 hover:bg-[var(--btn-hover)] transition">
+                            class="border rounded-2xl bg-[var(--main-bg)] px-4 py-2 hover:bg-[var(--btn-hover)] hover:text-white  transition">
                             <?= t('nav.login') ?>
                         </a>
                         <a href="<?= BASE_URL ?>/auth/register"
@@ -84,7 +84,7 @@ if (!defined('BASE_URL')) {
                         <button
                             type="button"
                             id="langToggle"
-                            class="flex items-center gap-2 border rounded-2xl px-3 py-2 bg-white hover:bg-[var(--btn-hover)] transition">
+                            class="flex items-center gap-2 border rounded-2xl px-3 py-2 bg-white hover:bg-[var(--btn-hover)] hover:text-white transition">
                             <i class="fa-solid fa-globe"></i>
                             <span><?= strtoupper($currentLang) ?></span>
                             <i class="fa-solid fa-chevron-down text-xs"></i>
@@ -94,27 +94,27 @@ if (!defined('BASE_URL')) {
                             id="langDropdown"
                             class="hidden absolute right-0 mt-2 w-44 bg-white border rounded-2xl shadow-lg p-2 z-50">
                             <a href="<?= BASE_URL ?>?lang=en"
-                               class="block px-3 py-2 rounded-xl hover:bg-[var(--btn-hover)] <?= $currentLang === 'en' ? 'font-bold bg-[var(--btn-hover)]' : '' ?>">
+                               class="block px-3 py-2 rounded-xl hover:bg-[var(--btn-hover)] hover:text-white <?= $currentLang === 'en' ? 'font-bold bg-[var(--btn-hover)]' : '' ?>">
                                 English
                             </a>
 
                             <a href="<?= BASE_URL ?>?lang=uz"
-                                class="block px-3 py-2 rounded-xl hover:bg-[var(--btn-hover)] <?= $currentLang === 'uz' ? 'font-bold bg-[var(--btn-hover)]' : '' ?>">
+                                class="block px-3 py-2 rounded-xl hover:bg-[var(--btn-hover)] hover:text-white <?= $currentLang === 'uz' ? 'font-bold bg-[var(--btn-hover)]' : '' ?>">
                                 O'zbek
                             </a>
 
                             <a href="<?= BASE_URL ?>?lang=ru"
-                                class="block px-3 py-2 rounded-xl hover:bg-[var(--btn-hover)] <?= $currentLang === 'ru' ? 'font-bold bg-[var(--btn-hover)]' : '' ?>">
+                                class="block px-3 py-2 rounded-xl hover:bg-[var(--btn-hover)] hover:text-white <?= $currentLang === 'ru' ? 'font-bold bg-[var(--btn-hover)]' : '' ?>">
                                 Русский
                             </a>
 
                             <a href="<?= BASE_URL ?>?lang=lv"
-                                class="block px-3 py-2 rounded-xl hover:bg-[var(--btn-hover)] <?= $currentLang === 'lv' ? 'font-bold bg-[var(--btn-hover)]' : '' ?>">
+                                class="block px-3 py-2 rounded-xl hover:bg-[var(--btn-hover)] hover:text-white <?= $currentLang === 'lv' ? 'font-bold bg-[var(--btn-hover)]' : '' ?>">
                                 Latviešu
                             </a>
 
                             <a href="<?= BASE_URL ?>?lang=bn"
-                               class="block px-3 py-2 rounded-xl hover:bg-[var(--btn-hover)] <?= $currentLang === 'bn' ? 'font-bold bg-[var(--btn-hover)]' : '' ?>">
+                               class="block px-3 py-2 rounded-xl hover:bg-[var(--btn-hover)] hover:text-white <?= $currentLang === 'bn' ? 'font-bold bg-[var(--btn-hover)]' : '' ?>">
                                 বাংলা
                             </a>
                         </div>
