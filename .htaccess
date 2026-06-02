@@ -1,0 +1,20 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /tinyRides/
+
+  # do not rewrite api
+  RewriteRule ^api/ - [L]
+
+  # closing app and config folders from web 
+  RewriteRule ^(app|config)(/|$) - [F,L]
+
+
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # rest of them works with index.php which shows urls
+  RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+</IfModule>

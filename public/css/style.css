@@ -1,0 +1,125 @@
+:root {
+  --btn-bg: oklch(0.65 0.2 145);
+  --btn-hover: oklch(0.651 0.201 144.958);
+  --nav-text: oklch(0.25 0.02 260);
+  --body-pf: oklch(0.5 0.02 260);
+  --main-bg: oklch(0.98 0.005 90);
+  --border-color: oklch(0.9 0.02 90);
+  --green-btn-hover: oklch(68.342% 0.20315 145.585);
+  --input-ring: oklch(0.65 0.2 145);
+  --rc-color: oklch(0.65 0.2 145);
+  --rc-bg: oklab(0.65 -0.16383 0.114715 / 0.1);
+  --rc-hover: #f1ae84;
+  --chart-1: #29e729;
+  --badge-color: #f3e2c7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 10px 16px;
+}
+
+.hero-bg {
+  background: linear-gradient(
+    135deg,
+    #f7eddf 0%,
+    #f7eee2 15%,
+    #b0c8ab 30%,
+    #eae4dc 50%,
+    #f9f2eb 65%,
+    #f9f4ec 80%,
+    #f9f7f2 100%
+  );
+  min-height: 500px;
+  position: relative;
+}
+
+.hero-bg::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(255, 255, 255, 0.8) 100%
+  );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  pointer-events: none;
+}
+
+/* category input section */
+.category-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.category-option input[type="radio"] {
+  display: none;
+}
+
+.category-option label {
+  position: relative;
+  padding-left: 26px;
+  cursor: pointer;
+}
+
+.category-option label::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 4px;
+  background: white;
+  transition: all 0.2s ease;
+}
+
+.category-option input[type="radio"]:checked + label::before {
+  background-color: var(--btn-bg);
+  border-color: var(--btn-bg);
+}
+
+.category-option input[type="radio"]:checked + label::after {
+  content: "✓";
+  position: absolute;
+  left: 4px;
+  top: 0px;
+  font-size: 12px;
+  color: white;
+}
+
+.condition {
+  display: block;
+}
+
+.posts.rented-post .post-text {
+  opacity: 0.6;
+}
+.posts.rented-post .post-menu,
+.posts.rented-post .post-menu-btn {
+  opacity: 1 !important;
+}
+
+.posts.menu-open {
+  position: relative;
+  z-index: 9999;
+}
