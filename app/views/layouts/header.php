@@ -41,9 +41,9 @@ if (!defined('BASE_URL')) {
                 <!-- Desktop nav -->
                 <nav class="hidden md:flex items-center gap-2">
                     <a href="<?= BASE_URL ?>"
-                        class="flex items-center gap-2 py-2 px-4 rounded-2xl hover:bg-[var(--btn-hover)] transition">
+                        class="flex items-center gap-2 py-2 px-4 rounded-2xl hover:bg-[var(--btn-hover)] hover:text-white transition">
                         <i class="fa-regular fa-house"></i>
-                        <span class="text-[var(--nav-text)]"><?= t('nav.home') ?></span>
+                        <span class="text- [var(--nav-text)]"><?= t('nav.home') ?></span>
                     </a>
 
                     <a href="<?= BASE_URL ?>/car/index"
