@@ -47,14 +47,14 @@ if (!defined('BASE_URL')) {
                     </a>
 
                     <a href="<?= BASE_URL ?>/car/index"
-                        class="flex items-center gap-2 py-2 px-4 rounded-2xl hover:bg-[var(--btn-hover)] transition">
+                        class="flex items-center gap-2 py-2 px-4 rounded-2xl hover:bg-[var(--btn-hover)] hover:text-white transition">
                         <i class="fa-solid fa-car-side"></i>
-                        <span class="text-[var(--nav-text)]"><?= t('nav.items') ?></span>
+                        <span class="text-white[var(--nav-text)]"><?= t('nav.items') ?></span>
                     </a>
 
                     <?php if (isset($_SESSION['user_id'])): ?>
                         <a href="<?= BASE_URL ?>/car/create"
-                            class="flex items-center gap-2 py-2 px-4 rounded-2xl hover:bg-[var(--btn-hover)] transition">
+                            class="flex items-center gap-2 py-2 px-4 rounded-2xl hover:bg-[var(--btn-hover)]  transition">
                             <i class="fa-solid fa-plus"></i>
                             <span class="text-[var(--nav-text)]"><?= t('nav.add_post') ?></span>
                         </a>
@@ -65,7 +65,7 @@ if (!defined('BASE_URL')) {
                 <div class="hidden md:flex items-center gap-3">
                     <?php if (isset($_SESSION['user_id'])): ?>
                         <a href="<?= BASE_URL ?>/user/profile"
-                            class="flex items-center gap-2 py-2 px-4 rounded-2xl hover:bg-[var(--btn-hover)] transition">
+                            class="flex items-center gap-2 py-2 px-4 rounded-2xl hover:bg-[var(--btn-hover)]  transition">
                             <i class="fa-regular fa-user"></i>
                             <span class="text-[var(--nav-text)]"><?= t('nav.profile') ?></span>
                         </a>
