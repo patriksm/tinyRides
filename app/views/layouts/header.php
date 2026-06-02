@@ -71,7 +71,7 @@ if (!defined('BASE_URL')) {
                         </a>
                     <?php else: ?>
                         <a href="<?= BASE_URL ?>/auth/login"
-                            class="border rounded-2xl bg-[var(--main-bg)] px-4 py-2 hover:bg-[var(--btn-hover)] transition">
+                            class="border rounded-2xl bg-[var(--main-bg)] px-4 py-2 hover:bg-[var(--btn-hover)] hover:text-white  transition">
                             <?= t('nav.login') ?>
                         </a>
                         <a href="<?= BASE_URL ?>/auth/register"
