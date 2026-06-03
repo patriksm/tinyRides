@@ -2395,3 +2395,33 @@ Stack trace:
 #2 D:\Wamp\www\tinyRides\app\core\Router.php(90): CarController->create()
 #3 D:\Wamp\www\tinyRides\index.php(83): Router->dispatch()
 #4 {main}
+[03-Jun-2026 13:16:23 UTC] ParseError: syntax error, unexpected token "else", expecting end of file in C:\wamp64\www\tinyRides\app\views\home\index.php:166
+Stack trace:
+#0 C:\wamp64\www\tinyRides\app\controllers\HomeController.php(14): Controller->view('home/index', Array)
+#1 C:\wamp64\www\tinyRides\app\core\Router.php(90): HomeController->index()
+#2 C:\wamp64\www\tinyRides\index.php(83): Router->dispatch()
+#3 {main}
+[03-Jun-2026 13:16:25 UTC] ParseError: syntax error, unexpected token "else", expecting end of file in C:\wamp64\www\tinyRides\app\views\home\index.php:166
+Stack trace:
+#0 C:\wamp64\www\tinyRides\app\controllers\HomeController.php(14): Controller->view('home/index', Array)
+#1 C:\wamp64\www\tinyRides\app\core\Router.php(90): HomeController->index()
+#2 C:\wamp64\www\tinyRides\index.php(83): Router->dispatch()
+#3 {main}
+[03-Jun-2026 13:18:58 UTC] ParseError: syntax error, unexpected token "else", expecting end of file in C:\wamp64\www\tinyRides\app\views\home\index.php:167
+Stack trace:
+#0 C:\wamp64\www\tinyRides\app\controllers\HomeController.php(14): Controller->view('home/index', Array)
+#1 C:\wamp64\www\tinyRides\app\core\Router.php(90): HomeController->index()
+#2 C:\wamp64\www\tinyRides\index.php(83): Router->dispatch()
+#3 {main}
+[03-Jun-2026 13:18:59 UTC] ParseError: syntax error, unexpected token "else", expecting end of file in C:\wamp64\www\tinyRides\app\views\home\index.php:167
+Stack trace:
+#0 C:\wamp64\www\tinyRides\app\controllers\HomeController.php(14): Controller->view('home/index', Array)
+#1 C:\wamp64\www\tinyRides\app\core\Router.php(90): HomeController->index()
+#2 C:\wamp64\www\tinyRides\index.php(83): Router->dispatch()
+#3 {main}
+[03-Jun-2026 13:18:59 UTC] ParseError: syntax error, unexpected token "else", expecting end of file in C:\wamp64\www\tinyRides\app\views\home\index.php:167
+Stack trace:
+#0 C:\wamp64\www\tinyRides\app\controllers\HomeController.php(14): Controller->view('home/index', Array)
+#1 C:\wamp64\www\tinyRides\app\core\Router.php(90): HomeController->index()
+#2 C:\wamp64\www\tinyRides\index.php(83): Router->dispatch()
+#3 {main}
