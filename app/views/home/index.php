@@ -106,7 +106,7 @@
                         <i class="fa-solid fa-magnifying-glass text-2xl text-[var(--btn-bg)]"></i>
                         <div class="absolute -top-2 -right-2 w-9 h-9 rounded-full bg-[var(--btn-bg)] text-white flex items-center justify-center text-sm font-semibold">1</div>
                     </div>
-                    <h3 class="mt-5 text-lg font-semibold"><?= t('home.how_it_works.step1.title') ?></h3>
+                    <h3 class="mt-5 text-lg font-semibold hover:text-green-600"><?= t('home.how_it_works.step1.title') ?></h3>
                     <p class="mt-2 text-sm text-[var(--body-pf)] max-w-xs mx-auto">
                         <?= t('home.how_it_works.step1.description') ?>
                     </p>
@@ -142,7 +142,7 @@
                         <i class="fa-regular fa-calendar-days text-2xl text-[var(--btn-bg)]"></i>
                         <div class="absolute -top-2 -right-2 w-9 h-9 rounded-full bg-[var(--btn-bg)] text-white flex items-center justify-center text-sm font-semibold">4</div>
                     </div>
-                    <h3 class="mt-5 text-lg font-semibold"><?= t('home.how_it_works.step4.title') ?></h3>
+                    <h3 class="mt-5 text-lg font-semibold hover:text-green-600"><?= t('home.how_it_works.step4.title') ?></h3>
                     <p class="mt-2 text-sm text-[var(--body-pf)] max-w-xs mx-auto">
                         <?= t('home.how_it_works.step4.description') ?>
                     </p>
