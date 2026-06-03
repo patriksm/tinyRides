@@ -25,13 +25,13 @@
         <div class="text-center">
             <h1 class="font-bold text-3xl sm:text-4xl"><?= t('home.categories.title') ?></h1>
             <p class="text-base text-[var(--body-pf)] mt-2"><?= t('home.categories.description') ?></p>
-        </div>
-
+<!--        </div>-->
+<!---->
         <!-- FIX: max-width + center -->
         <div class="max-w-[1200px] mx-auto mt-10">
             <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-5">
                 <a href="<?= BASE_URL ?>/car/index"
-                    class="border rounded-2xl border-[var(--border-color)] bg-white px-4 py-6 flex flex-col items-center justify-center text-center">
+                    class="border rounded-2xl hover:bg-[var(--btn-hover)] hover:text-white px-4 py-6 flex flex-col items-center justify-center text-center">
                     <div class="w-14 h-14 rounded-2xl bg-[#E8F6EC] flex items-center justify-center mb-4">
                         <i class="fa-solid fa-gamepad text-2xl text-[var(--btn-bg)]"></i>
                     </div>
@@ -39,7 +39,7 @@
                 </a>
 
                 <a href="<?= BASE_URL ?>/car/index"
-                    class="border rounded-2xl border-[var(--border-color)] bg-white px-4 py-6 flex flex-col items-center justify-center text-center">
+                    class="border rounded-2xl hover:bg-[var(--btn-hover)] hover:text-white px-4 py-6 flex flex-col items-center justify-center text-center">
                     <div class="w-14 h-14 rounded-2xl bg-[#FFF0E8] flex items-center justify-center mb-4">
                         <i class="fa-solid fa-car-side text-2xl text-[#FF8A4C]"></i>
                     </div>
@@ -47,7 +47,7 @@
                 </a>
 
                 <a href="<?= BASE_URL ?>/car/index"
-                    class="border rounded-2xl border-[var(--border-color)] bg-white px-4 py-6 flex flex-col items-center justify-center text-center">
+                    class="border rounded-2xl hover:bg-[var(--btn-hover)] hover:text-white px-4 py-6 flex flex-col items-center justify-center text-center">
                     <div class="w-14 h-14 rounded-2xl bg-[#E9FBFF] flex items-center justify-center mb-4">
                         <i class="fa-solid fa-person-biking text-2xl text-[#06B6D4]"></i>
                     </div>
@@ -55,7 +55,7 @@
                 </a>
 
                 <a href="<?= BASE_URL ?>/car/index"
-                    class="border rounded-2xl border-[var(--border-color)] bg-white px-4 py-6 flex flex-col items-center justify-center text-center">
+                    class="border rounded-2xl hover:bg-[var(--btn-hover)] hover:text-white px-4 py-6 flex flex-col items-center justify-center text-center">
                     <div class="w-14 h-14 rounded-2xl bg-[#F9E8F9] flex items-center justify-center mb-4">
                         <i class="fa-solid fa-tractor text-2xl text-[#D946EF]"></i>
                     </div>
@@ -63,7 +63,7 @@
                 </a>
 
                 <a href="<?= BASE_URL ?>/car/index"
-                    class="border rounded-2xl border-[var(--border-color)] bg-white px-4 py-6 flex flex-col items-center justify-center text-center">
+                    class="border rounded-2xl hover:bg-[var(--btn-hover)] hover:text-white px-4 py-6 flex flex-col items-center justify-center text-center">
                     <div class="w-14 h-14 rounded-2xl bg-[#F0EDFF] flex items-center justify-center mb-4">
                         <i class="fa-solid fa-shoe-prints text-2xl text-[#7C6CF6]"></i>
                     </div>
@@ -71,7 +71,7 @@
                 </a>
 
                 <a href="<?= BASE_URL ?>/car/index"
-                    class="border rounded-2xl border-[var(--border-color)] bg-white px-4 py-6 flex flex-col items-center justify-center text-center">
+                    class="border rounded-2xl hover:bg-[var(--btn-hover)] hover:text-white px-4 py-6 flex flex-col items-center justify-center text-center">
                     <div class="w-14 h-14 rounded-2xl bg-[#E8F6EC] flex items-center justify-center mb-4">
                         <i class="fa-solid fa-bolt text-2xl text-[var(--btn-bg)]"></i>
                     </div>
