@@ -507,7 +507,7 @@ $conditions = [
             <button
                 type="submit"
                 class="border rounded-xl text-center bg-[var(--btn-bg)] text-white w-full p-2 hover:bg-[var(--green-btn-hover)] mb-10">
-                <?= t('create.submit') ?>
+                <?= t('€ List toy') ?>
             </button>
         </form>
     </div>
