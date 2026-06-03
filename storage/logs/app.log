@@ -2388,3 +2388,10 @@ Stack trace:
 Stack trace:
 #0 C:\wamp64\www\tinyRides\index.php(82): Router->__construct()
 #1 {main}
+[03-Jun-2026 12:33:53 UTC] ParseError: syntax error, unexpected token "else", expecting end of file in D:\Wamp\www\tinyRides\app\views\layouts\header.php:73
+Stack trace:
+#0 D:\Wamp\www\tinyRides\app\core\Controller.php(85): require()
+#1 D:\Wamp\www\tinyRides\app\controllers\CarController.php(76): Controller->view('car/create', Array)
+#2 D:\Wamp\www\tinyRides\app\core\Router.php(90): CarController->create()
+#3 D:\Wamp\www\tinyRides\index.php(83): Router->dispatch()
+#4 {main}
