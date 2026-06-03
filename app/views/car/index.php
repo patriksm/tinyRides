@@ -360,7 +360,7 @@ $perUnits = [
 
                                         <div class="flex justify-between my-4 items-center">
                                             <div class="card-price text-lg text-[var(--btn-bg)] font-bold">
-                                                <?= htmlspecialchars($price) ?><span class="text-sm text-[var(--body-pf)]">/<?= htmlspecialchars($perLabel) ?></span>
+                                                <?= '€ '.htmlspecialchars($price) ?><span class="text-sm text-[var(--body-pf)]"> / <?= htmlspecialchars($perLabel) ?></span>
                                             </div>
 
                                             <?php if ($isRented): ?>
