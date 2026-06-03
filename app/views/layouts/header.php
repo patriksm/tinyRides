@@ -11,7 +11,7 @@ if (!defined('BASE_URL')) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= htmlspecialchars($title ?? 'Tiny Rides') ?></title>
-
+    <link rel="icon" href="<?= BASE_URL ?>/public/favicon.png" type="image/png">
     <link rel="stylesheet" href="<?= CSS_URL ?>/css/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 
