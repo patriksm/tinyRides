@@ -107,7 +107,7 @@
                         <div class="absolute -top-2 -right-2 w-9 h-9 rounded-full bg-[var(--btn-bg)] text-white flex items-center justify-center text-sm font-semibold">1</div>
                     </div>
                     <h3 class="mt-5 text-lg font-semibold hover:text-green-600"><?= t('home.how_it_works.step1.title') ?></h3>
-                    <p class="mt-2 text-sm text-[var(--body-pf)] max-w-xs mx-auto">
+                    <p class="mt-2 text-sm text-[var(--body-pf)] hover:text-green-600 max-w-xs mx-auto">
                         <?= t('home.how_it_works.step1.description') ?>
                     </p>
                 </a>
@@ -119,7 +119,7 @@
                         <div class="absolute -top-2 -right-2 w-9 h-9 rounded-full bg-[var(--btn-bg)] text-white flex items-center justify-center text-sm font-semibold">2</div>
                     </div>
                     <h3 class="mt-5 text-lg font-semibold hover:text-green-600"><?= t('home.how_it_works.step2.title') ?></h3>
-                    <p class="mt-2 text-sm text-[var(--body-pf)] max-w-xs mx-auto">
+                    <p class="mt-2 text-sm  text-[var(--body-pf)] hover:text-green-600 max-w-xs mx-auto">
                         <?= t('home.how_it_works.step2.description') ?>
                     </p>
                 </a>
@@ -131,7 +131,7 @@
                         <div class="absolute -top-2 -right-2 w-9 h-9 rounded-full bg-[var(--btn-bg)] text-white flex items-center justify-center text-sm font-semibold">3</div>
                     </div>
                     <h3 class="mt-5 text-lg font-semibold hover:text-green-600"><?= t('home.how_it_works.step3.title') ?></h3>
-                    <p class="mt-2 text-sm text-[var(--body-pf)] max-w-xs mx-auto">
+                    <p class="mt-2 text-sm text-[var(--body-pf)] hover:text-green-600 max-w-xs mx-auto">
                         <?= t('home.how_it_works.step3.description') ?>
                     </p>
                 </a>
@@ -143,7 +143,7 @@
                         <div class="absolute -top-2 -right-2 w-9 h-9 rounded-full bg-[var(--btn-bg)] text-white flex items-center justify-center text-sm font-semibold">4</div>
                     </div>
                     <h3 class="mt-5 text-lg font-semibold hover:text-green-600"><?= t('home.how_it_works.step4.title') ?></h3>
-                    <p class="mt-2 text-sm text-[var(--body-pf)] max-w-xs mx-auto">
+                    <p class="mt-2 text-sm text-[var(--body-pf)] hover:text-green-600 max-w-xs mx-auto">
                         <?= t('home.how_it_works.step4.description') ?>
                     </p>
                 </a>
@@ -157,8 +157,8 @@
 <!-- RECOMMEND SECTION START-->
 <section class="bg-[var(--btn-bg)]">
     <div class="container px-4 sm:px-0 py-12 sm:py-16">
-        <div class="recommend-text text-center">
-            <h1 class="text-white text-3xl sm:text-4xl font-bold"><?= t('home.cta.title') ?></h1>
+        <div class="recommend-text text-center ">
+            <h1 class="text-white text-3xl sm:text-4xl font-bold "><?= t('home.cta.title') ?></h1>
             <p class="text-[#ffffffcc] text-base sm:text-lg my-5 max-w-4xl mx-auto">
                 <?= t('home.cta.description') ?>
             </p>
