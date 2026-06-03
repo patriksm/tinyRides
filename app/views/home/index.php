@@ -163,11 +163,16 @@
                 <?= t('home.cta.description') ?>
             </p>
 
+            <button class="py-3 px-6 rounded-xl bg-[#f3e2c7] text-[#1c222b] hover:bg-[#f1ae84]">
+            <a href="<?= BASE_URL ?>/auth/register"
+               class="rounded-2xl px-1 py-2 bg- text-black transition">
+                <?= t('nav.register') ?>
+            </button>
+            </a>
+
             <a href="<?= BASE_URL ?>/car/index">
                 <button class="py-3 px-6 rounded-xl bg-[#f3e2c7] text-[#1c222b] hover:bg-[#f1ae84]">
-                    <i class="fa-solid fa-arrow-right-long ml-2 text-[#1c222b]"></i>
                     <?= t('home.cta.button') ?>
-                    <i class="fa-solid fa-arrow-right-long ml-2 text-[#1c222b]"></i>
                 </button>
             </a>
 

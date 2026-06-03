@@ -1968,3 +1968,55 @@ Stack trace:
 Stack trace:
 #0 D:\Wamp\www\tinyRides\index.php(83): Router->dispatch()
 #1 {main}
+[03-Jun-2026 11:31:49 UTC] RuntimeException: Not found in C:\wamp64\www\tinyRides\app\core\Router.php:39
+Stack trace:
+#0 C:\wamp64\www\tinyRides\index.php(82): Router->__construct()
+#1 {main}
+[03-Jun-2026 11:32:12 UTC] RuntimeException: Not found in C:\wamp64\www\tinyRides\app\core\Router.php:39
+Stack trace:
+#0 C:\wamp64\www\tinyRides\index.php(82): Router->__construct()
+#1 {main}
+[03-Jun-2026 11:38:20 UTC] RuntimeException: Not found in C:\wamp64\www\tinyRides\app\core\Router.php:39
+Stack trace:
+#0 C:\wamp64\www\tinyRides\index.php(82): Router->__construct()
+#1 {main}
+[03-Jun-2026 11:38:37 UTC] RuntimeException: Not found in C:\wamp64\www\tinyRides\app\core\Router.php:39
+Stack trace:
+#0 C:\wamp64\www\tinyRides\index.php(82): Router->__construct()
+#1 {main}
+[03-Jun-2026 11:42:00 UTC] RuntimeException: Not found in C:\wamp64\www\tinyRides\app\core\Router.php:39
+Stack trace:
+#0 C:\wamp64\www\tinyRides\index.php(82): Router->__construct()
+#1 {main}
+[03-Jun-2026 11:42:44 UTC] RuntimeException: Not found in C:\wamp64\www\tinyRides\app\core\Router.php:39
+Stack trace:
+#0 C:\wamp64\www\tinyRides\index.php(82): Router->__construct()
+#1 {main}
+[03-Jun-2026 11:44:58 UTC] RuntimeException: Not found in C:\wamp64\www\tinyRides\app\core\Router.php:39
+Stack trace:
+#0 C:\wamp64\www\tinyRides\index.php(82): Router->__construct()
+#1 {main}
+[03-Jun-2026 11:45:46 UTC] RuntimeException: Not found in C:\wamp64\www\tinyRides\app\core\Router.php:39
+Stack trace:
+#0 C:\wamp64\www\tinyRides\index.php(82): Router->__construct()
+#1 {main}
+[03-Jun-2026 11:46:18 UTC] RuntimeException: Not found in C:\wamp64\www\tinyRides\app\core\Router.php:39
+Stack trace:
+#0 C:\wamp64\www\tinyRides\index.php(82): Router->__construct()
+#1 {main}
+[03-Jun-2026 11:46:44 UTC] RuntimeException: Not found in C:\wamp64\www\tinyRides\app\core\Router.php:39
+Stack trace:
+#0 C:\wamp64\www\tinyRides\index.php(82): Router->__construct()
+#1 {main}
+[03-Jun-2026 11:46:52 UTC] RuntimeException: Not found in C:\wamp64\www\tinyRides\app\core\Router.php:50
+Stack trace:
+#0 C:\wamp64\www\tinyRides\index.php(82): Router->__construct()
+#1 {main}
+[03-Jun-2026 11:46:56 UTC] RuntimeException: Not found in C:\wamp64\www\tinyRides\app\core\Router.php:50
+Stack trace:
+#0 C:\wamp64\www\tinyRides\index.php(82): Router->__construct()
+#1 {main}
+[03-Jun-2026 11:47:05 UTC] RuntimeException: Not found in C:\wamp64\www\tinyRides\app\core\Router.php:39
+Stack trace:
+#0 C:\wamp64\www\tinyRides\index.php(82): Router->__construct()
+#1 {main}
