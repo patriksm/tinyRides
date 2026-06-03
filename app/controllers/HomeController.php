@@ -12,7 +12,8 @@ class HomeController extends Controller
         $cars = $carModel->getAllWithOwner(HOMEPAGE_CARS_LIMIT);
 
         $this->view('home/index', [
-            'title' => 'Home',
+//            'title' => 'Home',
+            'title' => t('nav.home'),
             'cars' => $cars
         ]);
     }

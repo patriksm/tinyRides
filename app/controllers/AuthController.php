@@ -11,7 +11,8 @@ class AuthController extends Controller
         }
 
         $this->view('auth/login', [
-            'title'  => 'Login',
+      //            'title' => 'Login',
+            'title' => t('nav.login'),
             '_token' => $this->csrfToken(),
         ]);
     }
@@ -73,7 +74,9 @@ class AuthController extends Controller
         }
 
         $this->view('auth/register', [
-            'title'  => 'Register',
+//            'title' => 'Register',
+            'title' => t('nav.register'),
+
             '_token' => $this->csrfToken(),
         ]);
     }

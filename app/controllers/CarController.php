@@ -46,9 +46,10 @@ class CarController extends Controller
         }
 
         $this->view('car/index', [
-            'title' => 'Browse items',
+//            'title' => 'listing',
+            'title' => t('nav.items'),
             'cars' => $cars,
-            'q' => $filters,
+            'q'=>$filters
         ]);
     }
 
