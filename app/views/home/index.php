@@ -102,8 +102,8 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
                 <!-- 1 -->
                 <a href="javascript:void(0)" class="text-center">
-                    <div class="relative mx-auto w-20 h-20 rounded-full bg-[#E8F6EC] flex items-center justify-center">
-                        <i class="fa-solid fa-magnifying-glass text-2xl text-[var(--btn-bg)]"></i>
+                    <div class="relative mx-auto w-20 h-20 rounded-full bg-[#E8F6EC] hover:bg-[var(--btn-hover)] flex items-center justify-center">
+                        <i class="fa-solid fa-magnifying-glass text-2xl text-[var(--btn-bg)] text-black"></i>
                         <div class="absolute -top-2 -right-2 w-9 h-9 rounded-full bg-[var(--btn-bg)] text-white flex items-center justify-center text-sm font-semibold">1</div>
                     </div>
                     <h3 class="mt-5 text-lg font-semibold hover:text-green-600"><?= t('home.how_it_works.step1.title') ?></h3>
@@ -114,8 +114,8 @@
 
                 <!-- 2 -->
                 <a href="javascript:void(0)" class="text-center">
-                    <div class="relative mx-auto w-20 h-20 rounded-full bg-[#E8F6EC] flex items-center justify-center">
-                        <i class="fa-regular fa-comment-dots text-2xl text-[var(--btn-bg)]"></i>
+                    <div class="relative mx-auto w-20 h-20 rounded-full bg-[#E8F6EC] hover:bg-[var(--btn-hover)] flex items-center justify-center">
+                        <i class="fa-regular fa-comment-dots text-2xl text-black[var(--btn-bg)]"></i>
                         <div class="absolute -top-2 -right-2 w-9 h-9 rounded-full bg-[var(--btn-bg)] text-white flex items-center justify-center text-sm font-semibold">2</div>
                     </div>
                     <h3 class="mt-5 text-lg font-semibold hover:text-green-600"><?= t('home.how_it_works.step2.title') ?></h3>
@@ -126,8 +126,8 @@
 
                 <!-- 3 -->
                 <a href="javascript:void(0)" class="text-center">
-                    <div class="relative mx-auto w-20 h-20 rounded-full bg-[#E8F6EC] flex items-center justify-center">
-                        <i class="fa-regular fa-face-smile text-2xl text-[var(--btn-bg)]"></i>
+                    <div class="relative mx-auto w-20 h-20 rounded-full bg-[#E8F6EC] hover:bg-[var(--btn-hover)] flex items-center justify-center">
+                        <i class="fa-regular fa-face-smile text-2xl text-black[var(--btn-bg)]"></i>
                         <div class="absolute -top-2 -right-2 w-9 h-9 rounded-full bg-[var(--btn-bg)] text-white flex items-center justify-center text-sm font-semibold">3</div>
                     </div>
                     <h3 class="mt-5 text-lg font-semibold hover:text-green-600"><?= t('home.how_it_works.step3.title') ?></h3>
@@ -138,8 +138,8 @@
 
                 <!-- 4 -->
                 <a href="javascript:void(0)" class="text-center">
-                    <div class="relative mx-auto w-20 h-20 rounded-full bg-[#E8F6EC] flex items-center justify-center">
-                        <i class="fa-regular fa-calendar-days text-2xl text-[var(--btn-bg)]"></i>
+                    <div class="relative mx-auto w-20 h-20 rounded-full bg-[#E8F6EC] hover:bg-[var(--btn-hover)] flex items-center justify-center">
+                        <i class="fa-regular fa-calendar-days text-2xl text-black[var(--btn-bg)]"></i>
                         <div class="absolute -top-2 -right-2 w-9 h-9 rounded-full bg-[var(--btn-bg)] text-white flex items-center justify-center text-sm font-semibold">4</div>
                     </div>
                     <h3 class="mt-5 text-lg font-semibold hover:text-green-600"><?= t('home.how_it_works.step4.title') ?></h3>

@@ -2425,3 +2425,10 @@ Stack trace:
 #1 C:\wamp64\www\tinyRides\app\core\Router.php(90): HomeController->index()
 #2 C:\wamp64\www\tinyRides\index.php(83): Router->dispatch()
 #3 {main}
+[04-Jun-2026 08:16:02 UTC] ParseError: syntax error, unexpected identifier "hover", expecting "," or ";" in D:\Wamp\www\tinyRides\app\views\layouts\header.php:153
+Stack trace:
+#0 D:\Wamp\www\tinyRides\app\core\Controller.php(85): require()
+#1 D:\Wamp\www\tinyRides\app\controllers\HomeController.php(14): Controller->view('home/index', Array)
+#2 D:\Wamp\www\tinyRides\app\core\Router.php(90): HomeController->index()
+#3 D:\Wamp\www\tinyRides\index.php(83): Router->dispatch()
+#4 {main}

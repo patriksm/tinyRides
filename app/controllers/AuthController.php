@@ -81,7 +81,7 @@ class AuthController extends Controller
         ]);
     }
 
-    public function buttonsignup(): void
+    public function signup(): void
     {
         if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
             $this->redirect('auth/register');

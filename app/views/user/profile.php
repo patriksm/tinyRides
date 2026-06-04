@@ -79,8 +79,8 @@ if (is_array($cars)) {
                 </div>
 
                 <a href="<?= rtrim(BASE_URL, '/') ?>/auth/logout"
-                    class="border h-10 w-full sm:w-[110px] rounded-xl bg-[var(--main-bg)] hover:bg-[var(--btn-hover)] transition-all flex items-center justify-center gap-2 shrink-0">
-                    <i class="fa-solid fa-arrow-right-from-bracket text-[var(--body-pf)]"></i>
+                    class="border h-10 w-full sm:w-[110px] rounded-xl bg-[var(--main-bg)] hover:bg-[var(--btn-hover)] hover:text-white transition-all flex items-center justify-center gap-2 shrink-0">
+                    <i class="fa-solid fa-arrow-right-from-bracket text-[var(--body-pf)] hover:text-white"></i>
                     <?= t('nav.logout') ?>
                 </a>
             </div>
@@ -114,7 +114,7 @@ if (is_array($cars)) {
                     <div class="flex items-center justify-between gap-3 mt-6 sm:mt-10">
                         <h1 class="text-lg sm:text-xl font-semibold"><?= t('profile.listings.title') ?></h1>
                         <a href="<?= rtrim(BASE_URL, '/') ?>/car/create"
-                            class="border py-2 sm:py-1 px-4 sm:px-7 rounded-xl bg-[var(--btn-bg)] text-white shrink-0">
+                            class="border py-2 sm:py-1 px-4 sm:px-7 rounded-xl bg-[var(--main-bg)] text-black hover:bg-[var(--btn-hover)] hover:text-white shrink-0">
                             <?= t('profile.listings.add_new') ?>
                         </a>
                     </div>
