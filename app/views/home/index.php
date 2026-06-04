@@ -175,16 +175,15 @@
                     <?= t('home.cta.button') ?>
                 </button>
             </a>
-
+            <?php if (isset($_SESSION['user_id'])): ?>
             <button class="py-3 px-6 rounded-xl bg-[#f3e2c7] text-[#1c222b] hover:bg-[#f1ae84]">
-
                 <a href="<?= BASE_URL ?>/car/create"
                    class=""rounded-2xl px-1 py-2 bg- text-black  transition">
                     <i class="fa-solid fa-plus"></i>
                     <span class="text-[var(--nav-text)]"><?= t('nav.add_post') ?></span>
                 </a>
-
             </button>
+            <?php endif; ?>
         </div>
     </div>
 </section>
